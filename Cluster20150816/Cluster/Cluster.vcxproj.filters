@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{62a6b331-32dd-4eff-84df-053f5e40b371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DE">
+      <UniqueIdentifier>{5e24a6be-5696-4cd8-b096-44a21a29f893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BH">
+      <UniqueIdentifier>{9c7ec909-619d-41e0-badd-74778371b755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GA">
+      <UniqueIdentifier>{da2171e9-39ea-447e-8a04-95cbe080205f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Adjust_Tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Elite_Pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cluster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalTool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_Tool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="DE.cpp">
+      <Filter>DE</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_Manage.cpp">
+      <Filter>DE</Filter>
+    </ClCompile>
+    <ClCompile Include="BasinHopping.cpp">
+      <Filter>BH</Filter>
+    </ClCompile>
+    <ClCompile Include="GA.cpp">
+      <Filter>GA</Filter>
+    </ClCompile>
+    <ClCompile Include="NELbfgs.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Adjust_Tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Elite_Pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NELbfgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalTool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_Tool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="DE.h">
+      <Filter>DE</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_Manage.h">
+      <Filter>DE</Filter>
+    </ClInclude>
+    <ClInclude Include="BasinHopping.h">
+      <Filter>BH</Filter>
+    </ClInclude>
+    <ClInclude Include="GA.h">
+      <Filter>GA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

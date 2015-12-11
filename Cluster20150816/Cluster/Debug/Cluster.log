@@ -1,0 +1,62 @@
+﻿生成启动时间为 2015/11/18 7:49:43。
+     1>项目“E:\学校\程序\Cluster20150816\Cluster\Cluster.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Cluster.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\学校\程序\Cluster20150816\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DE.cpp DE_Manage.cpp main.cpp
+         DE_Manage.cpp
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(78): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\direct.h(124) : 参见“mkdir”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(79): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(80): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(154): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(256): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(259): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>e:\学校\程序\cluster20150816\cluster\de_manage.cpp(260): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+         DE.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         main.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学校\程序\Cluster20150816\Debug\Cluster.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Cluster.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\学校\程序\Cluster20150816\Debug\Cluster.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学校\程序\Cluster20150816\Debug\Cluster.lib" /MACHINE:X86 Debug\Adjust_Tool.obj
+         Debug\BasinHopping.obj
+         Debug\Cluster.obj
+         Debug\DE.obj
+         Debug\DE_Manage.obj
+         Debug\Elite_Pool.obj
+         Debug\GA.obj
+         Debug\List.obj
+         Debug\LocalTool.obj
+         Debug\main.obj
+         Debug\NELbfgs.obj
+         Debug\PE_Tool.obj
+         Debug\Tool.obj
+         "E:\学校\程序\Cluster20150816\Debug\Cluster_debug.lib"
+         LINK : 没有找到 E:\学校\程序\Cluster20150816\Debug\Cluster.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Cluster.vcxproj -> E:\学校\程序\Cluster20150816\Debug\Cluster.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\学校\程序\Cluster20150816\Debug\Cluster.exe;#1" /manifest Debug\Cluster.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Cluster.unsuccessfulbuild”。
+         正在对“Debug\Cluster.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\学校\程序\Cluster20150816\Cluster\Cluster.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.06
